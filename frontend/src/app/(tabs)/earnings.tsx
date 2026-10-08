@@ -26,6 +26,7 @@ interface Trip {
   amount: number;
   status: string;
   createdAt: string;
+  updatedAt?: string;
   passengers: any[];
 }
 
